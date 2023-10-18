@@ -882,7 +882,7 @@ git merge develop
     - git merge develop
 
     ```code
-    Copiamos los ficheros de la rama develop a la main
+    Copiamos los ficheros de la rama develop a la main (Con conflicto por el README.md)
     ```
 
 
@@ -896,7 +896,9 @@ git merge develop
     - git merge develop
 
     ```code
-    
+        Auto-fusionando README.md
+    CONFLICTO (contenido): Conflicto de fusión en README.md
+    Fusión automática falló; arregle los conflictos y luego realice un commit con el resultado.
     ```
 
 
@@ -906,22 +908,51 @@ git merge develop
 
 ## Ejercicio 22
 ```code
-
+git add .
+git commit -m "Creamos tag v.2"
+git tag v.2
+git push origin main
 ```
 - <b>Explicación:</b>
-    - 
+    - git add .
 
     ```code
-    
+    Añade los ficheros
+    ```
+    - git commit -m "Creamos tag v.2"
+
+    ```code
+    Crea un commit con dicho nombre
+    ```
+    - git tag v.2
+    ```code
+    Crea un tag llamado v.2 apuntando al último commit realizado
+    ```
+    - git push origin main
+    ```code
+    Envia el repositorio a la rama main remota
     ```
 
 
 
 - <b>Salida</b>
-    - 
+    - git add .
 
     ```code
+    
+    ```
+    - git commit -m "Creamos tag v.2"
 
+    ```code
+    
+    ```
+    - git tag v.2
+    ```code
+    
+    ```
+    - git push origin main
+    ```code
+    
     ```
 
 
