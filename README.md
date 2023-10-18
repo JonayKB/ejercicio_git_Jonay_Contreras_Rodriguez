@@ -944,7 +944,7 @@ git push origin main
     - git commit -m "Creamos tag v.2"
 
     ```code
-    
+    [main 7aa9d0c] Creamos tag v.2
     ```
     - git tag v.2
     ```code
