@@ -135,6 +135,8 @@ git nano hola.html
 CTRL+X
 S
 Enter
+git add .
+git commit -m "Creado archivo hola.html"
 ```
 - <b>Explicación:</b>
     - git switch develop
@@ -154,7 +156,7 @@ Enter
     - git switch develop 
 
     ```code
-
+    Cambiado a rama 'develop'
     ```
 
     - git nano hola.html
@@ -162,4 +164,126 @@ Enter
     ```code
 
     ```
+---
+
+
+
+## Ejercicio 7
+```code
+git switch main
+nano adios.html
+CTRL+X
+S
+Enter
+```
+- <b>Explicación:</b>
+    - git switch main
+
+    ```code
+    Cambia a la rama main
+    ```
+
+    - nano adios.html
+
+    ```code
+    Crear el archivo adios.html
+    ```
+
+
+- <b>Salida</b>
+    - git switch main
+
+    ```code
+    Cambiado a rama 'main'
+    ```
+
+    - nano adios.html
+
+    ```code
+    
+    ```
+
+
+---
+
+
+
+## Ejercicio 8
+```code
+git add.
+git commit -m "Creadoel archivo adios.html"
+```
+- <b>Explicación:</b>
+    - git add.
+
+    ```code
+    Añade los ficheros
+    ```
+
+    - git commit -m "Creadoel archivo adios.html"
+
+    ```code
+    Crea un commit con dicho nombre
+    ```
+
+
+- <b>Salida</b>
+    - git add.
+
+    ```code
+
+    ```
+
+    - git commit -m "Creadoel archivo adios.html"
+
+    ```code
+    Crea un commit con dicho nombre
+    ```
+
+
+---
+
+
+## Ejercicio 9
+```code
+
+```
+- <b>Explicación:</b>
+    - 
+
+    ```code
+    
+    ```
+
+
+- <b>Salida</b>
+    -  
+
+    ```code
+    
+    ```
+
+---
+
+
+
+## Ejercicio 10
+```code
+
+```
+- <b>Explicación:</b>
+    - 
+
+    ```code
+    
+    ```
+
+
+- <b>Salida</b>
+    -  
+
+    ```code
+    
+    ```
+
 ---
