@@ -254,6 +254,59 @@ git push origin main
     - 
 
     ```code
+    Envia el repositorio local de la rama actual a la rama main remota
+    ```
+
+
+- <b>Salida</b>
+    -  git push origin main
+
+    ```code
+        Enumerando objetos: 16, listo.
+    Contando objetos: 100% (16/16), listo.
+    Compresión delta usando hasta 4 hilos
+    Comprimiendo objetos: 100% (13/13), listo.
+    Escribiendo objetos: 100% (16/16), 2.29 KiB | 2.29 MiB/s, listo.
+    Total 16 (delta 4), reusados 0 (delta 0), pack-reusados 0
+    remote: Resolving deltas: 100% (4/4), done.
+    To https://github.com/JonayKB/ejercicio_git_Jonay_Contreras_Rodriguez
+    * [new branch]      main -> main
+    ```
+
+---
+
+
+
+## Ejercicio 10
+```code
+git branch
+```
+- <b>Explicación:</b>
+    - git branch
+
+    ```code
+    Miramos el listado de las ramas
+    ```
+
+
+- <b>Salida</b>
+    - git branch 
+
+    ```code
+      develop
+    * main
+    ```
+
+---
+
+## Ejercicio 11
+```code
+
+```
+- <b>Explicación:</b>
+    - 
+
+    ```code
     
     ```
 
@@ -267,9 +320,70 @@ git push origin main
 
 ---
 
+## Ejercicio 12
+```code
+
+```
+- <b>Explicación:</b>
+    - 
+
+    ```code
+    
+    ```
 
 
-## Ejercicio 10
+- <b>Salida</b>
+    -  
+
+    ```code
+    
+    ```
+
+---
+
+## Ejercicio 13
+```code
+
+```
+- <b>Explicación:</b>
+    - 
+
+    ```code
+    
+    ```
+
+
+- <b>Salida</b>
+    -  
+
+    ```code
+    
+    ```
+
+---
+
+## Ejercicio 14
+```code
+
+```
+- <b>Explicación:</b>
+    - 
+
+    ```code
+    
+    ```
+
+
+- <b>Salida</b>
+    -  
+
+    ```code
+    
+    ```
+
+---
+
+## Ejercicio 15
 ```code
 
 ```
