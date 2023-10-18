@@ -850,7 +850,115 @@ git push origin develop
     - git push origin develop
 
     ```code
+    Enumerando objetos: 16, listo.
+    Contando objetos: 100% (16/16), listo.
+    Compresión delta usando hasta 4 hilos
+    Comprimiendo objetos: 100% (12/12), listo.
+    Escribiendo objetos: 100% (12/12), 1.59 KiB | 1.59 MiB/s, listo.
+    Total 12 (delta 7), reusados 0 (delta 0), pack-reusados 0
+    remote: Resolving deltas: 100% (7/7), completed with 2 local objects.
+    remote: 
+    remote: Create a pull request for 'develop' on GitHub by visiting:
+    remote:      https://github.com/JonayKB/ejercicio_git_Jonay_Contreras_Rodriguez/pull/new/develop
+    remote: 
+    To https://github.com/JonayKB/ejercicio_git_Jonay_Contreras_Rodriguez
+    * [new branch]      develop -> develop
+    ```
+
+---
+
+
+## Ejercicio 21
+```code
+
+```
+- <b>Explicación:</b>
+    - 
+
+    ```code
+    
+    ```
+
+
+
+- <b>Salida</b>
+    - 
+
+    ```code
 
     ```
+
+
+---
+
+
+## Ejercicio 22
+```code
+
+```
+- <b>Explicación:</b>
+    - 
+
+    ```code
+    
+    ```
+
+
+
+- <b>Salida</b>
+    - 
+
+    ```code
+
+    ```
+
+
+---
+
+
+## Ejercicio 23
+```code
+
+```
+- <b>Explicación:</b>
+    - 
+
+    ```code
+    
+    ```
+
+
+
+- <b>Salida</b>
+    - 
+
+    ```code
+
+    ```
+
+
+---
+
+
+## Ejercicio 24
+```code
+
+```
+- <b>Explicación:</b>
+    - 
+
+    ```code
+    
+    ```
+
+
+
+- <b>Salida</b>
+    - 
+
+    ```code
+
+    ```
+
 
 ---
