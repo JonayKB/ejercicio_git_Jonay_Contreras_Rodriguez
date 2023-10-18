@@ -755,7 +755,19 @@ git push origin feature-2
     - git push
 
     ```code
-
+    Enumerando objetos: 12, listo.
+    Contando objetos: 100% (12/12), listo.
+    Compresión delta usando hasta 4 hilos
+    Comprimiendo objetos: 100% (10/10), listo.
+    Escribiendo objetos: 100% (10/10), 3.76 KiB | 3.76 MiB/s, listo.
+    Total 10 (delta 3), reusados 0 (delta 0), pack-reusados 0
+    remote: Resolving deltas: 100% (3/3), done.
+    remote: 
+    remote: Create a pull request for 'feature-2' on GitHub by visiting:
+    remote:      https://github.com/JonayKB/ejercicio_git_Jonay_Contreras_Rodriguez/pull/new/feature-2
+    remote: 
+    To https://github.com/JonayKB/ejercicio_git_Jonay_Contreras_Rodriguez
+    * [new branch]      feature-2 -> feature-2
     ```
 
 ---
@@ -763,7 +775,8 @@ git push origin feature-2
 
 ## Ejercicio 19
 ```code
-
+git checkout develop
+git merge feature-2
 ```
 - <b>Explicación:</b>
     - 
