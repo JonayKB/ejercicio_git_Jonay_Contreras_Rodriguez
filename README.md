@@ -717,7 +717,7 @@ Enter
 ```code
 git add .
 git commit -m "Creamos Estamos_a_punto_de_terminar.html"
-git push 
+git push origin feature-2
 ```
 - <b>Explicación:</b>
     - git add .
@@ -731,10 +731,10 @@ git push
     Creamos un commit llamado como se ha nombrado
     ```
 
-    - git push
+    - git push origin feature-2
 
     ```code
-    Enviamos los ficheros al repositorio remoto en la rama que estamos, actualmente en feature-2
+    Enviamos los ficheros al repositorio remoto a la rama feature-2
     ```
 
 
@@ -747,7 +747,9 @@ git push
     - git commit -m "Creamos Estamos_a_punto_de_terminar.html"
 
     ```code
-
+        [feature-2 20049df] Creamos Estamos_a_punto_de_terminar.html
+    2 files changed, 61 insertions(+), 11 deletions(-)
+    create mode 100644 Estamos_a_punto_de_terminar.html
     ```
 
     - git push
