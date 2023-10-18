@@ -666,7 +666,8 @@ git tag v.1
     - git commit -m "Creación del tag v.1"
 
     ```code
-    
+        [main d261eca] Creación del tag v.1
+    1 file changed, 335 insertions(+), 4 deletions(-)
     ```
 
     - git tag v.1
@@ -679,42 +680,94 @@ git tag v.1
 
 ## Ejercicio 17
 ```code
-
+git checkout -b feature-2
+nano Estamos_a_punto_de_terminar.html
+CTRL+X
+S
+Enter
 ```
 - <b>Explicación:</b>
-    - 
+    - git checkout -b feature-2
 
     ```code
-    
+    Crea una rama llamada feature-2 y te mueve a ella
+    ```
+    - nano Estamos_a_punto_de_terminar.html
+
+    ```code
+    Crear un archivo llamado Estamos_a_punto_de_terminar.html
     ```
 
 
 - <b>Salida</b>
-    -  
+    - git checkout -b feature-2
 
     ```code
-    
+    Cambiado a nueva rama 'feature-2'
+    ```
+    - nano Estamos_a_punto_de_terminar.html
+
+    ```code
+
     ```
 
 ---
 
 ## Ejercicio 18
 ```code
-
+git add .
+git commit -m "Creamos Estamos_a_punto_de_terminar.html"
+git push origin feature-2
 ```
 - <b>Explicación:</b>
-    - 
+    - git add .
 
     ```code
-    
+    Añadimos los ficheros
+    ```
+    - git commit -m "Creamos Estamos_a_punto_de_terminar.html"
+
+    ```code
+    Creamos un commit llamado como se ha nombrado
+    ```
+
+    - git push origin feature-2
+
+    ```code
+    Enviamos los ficheros al repositorio remoto a la rama feature-2
     ```
 
 
 - <b>Salida</b>
-    -  
+    - git add .
 
     ```code
-    
+
+    ```
+    - git commit -m "Creamos Estamos_a_punto_de_terminar.html"
+
+    ```code
+        [feature-2 20049df] Creamos Estamos_a_punto_de_terminar.html
+    2 files changed, 61 insertions(+), 11 deletions(-)
+    create mode 100644 Estamos_a_punto_de_terminar.html
+    ```
+
+    - git push
+
+    ```code
+    Enumerando objetos: 12, listo.
+    Contando objetos: 100% (12/12), listo.
+    Compresión delta usando hasta 4 hilos
+    Comprimiendo objetos: 100% (10/10), listo.
+    Escribiendo objetos: 100% (10/10), 3.76 KiB | 3.76 MiB/s, listo.
+    Total 10 (delta 3), reusados 0 (delta 0), pack-reusados 0
+    remote: Resolving deltas: 100% (3/3), done.
+    remote: 
+    remote: Create a pull request for 'feature-2' on GitHub by visiting:
+    remote:      https://github.com/JonayKB/ejercicio_git_Jonay_Contreras_Rodriguez/pull/new/feature-2
+    remote: 
+    To https://github.com/JonayKB/ejercicio_git_Jonay_Contreras_Rodriguez
+    * [new branch]      feature-2 -> feature-2
     ```
 
 ---
@@ -722,27 +775,136 @@ git tag v.1
 
 ## Ejercicio 19
 ```code
-
+git checkout develop
+git merge feature-2
 ```
 - <b>Explicación:</b>
-    - 
+    - git checkout develop
 
     ```code
-    
+    Cambiamos a la rama develop
+    ```
+
+    - git merge feature-2
+
+    ```code
+    Copiamos el contenido de la rama feature-2 a la develop (conflcito por el README.md)
     ```
 
 
+
+
 - <b>Salida</b>
-    -  
+    - git checkout develop
 
     ```code
-    
+    Cambiado a rama 'develop'
+    ```
+
+    - git merge feature-2
+        Auto-fusionando README.md
+    CONFLICTO (contenido): Conflicto de fusión en README.md
+    Fusión automática falló; arregle los conflictos y luego realice un commit con el resultado.
+    ```code
+
     ```
 
 ---
 
 
 ## Ejercicio 20
+```code
+git add .
+git commit -m "Merge realizado de feature-2"
+git push origin develop
+```
+- <b>Explicación:</b>
+    - git add .
+
+    ```code
+    Añadimos los ficheros
+    ```
+    - git commit -m "Merge realizado de feature-2"
+
+    ```code
+    Creamos un commit con dicho nombre
+    ```
+    - git push origin develop
+
+    ```code
+    Enviamos los ficheros al repositorio remoto en la rama develop
+    ```
+
+
+- <b>Salida</b>
+    - git add .
+
+    ```code
+
+    ```
+    - git commit -m "Merge realizado de feature-2"
+
+    ```code
+    [develop fd3e42b] Merge realizado de feature-2
+    ```
+    - git push origin develop
+
+    ```code
+    Enumerando objetos: 16, listo.
+    Contando objetos: 100% (16/16), listo.
+    Compresión delta usando hasta 4 hilos
+    Comprimiendo objetos: 100% (12/12), listo.
+    Escribiendo objetos: 100% (12/12), 1.59 KiB | 1.59 MiB/s, listo.
+    Total 12 (delta 7), reusados 0 (delta 0), pack-reusados 0
+    remote: Resolving deltas: 100% (7/7), completed with 2 local objects.
+    remote: 
+    remote: Create a pull request for 'develop' on GitHub by visiting:
+    remote:      https://github.com/JonayKB/ejercicio_git_Jonay_Contreras_Rodriguez/pull/new/develop
+    remote: 
+    To https://github.com/JonayKB/ejercicio_git_Jonay_Contreras_Rodriguez
+    * [new branch]      develop -> develop
+    ```
+
+---
+
+
+## Ejercicio 21
+```code
+git switch main
+git merge develop
+```
+- <b>Explicación:</b>
+    - git switch main
+
+    ```code
+    Cambiamos a la rama main
+    ```
+    - git merge develop
+
+    ```code
+    Copiamos los ficheros de la rama develop a la main
+    ```
+
+
+
+- <b>Salida</b>
+    - git switch main
+
+    ```code
+    Cambiado a rama 'main'
+    ```
+    - git merge develop
+
+    ```code
+    
+    ```
+
+
+
+---
+
+
+## Ejercicio 22
 ```code
 
 ```
@@ -754,11 +916,61 @@ git tag v.1
     ```
 
 
+
 - <b>Salida</b>
-    -  
+    - 
+
+    ```code
+
+    ```
+
+
+---
+
+
+## Ejercicio 23
+```code
+
+```
+- <b>Explicación:</b>
+    - 
 
     ```code
     
     ```
+
+
+
+- <b>Salida</b>
+    - 
+
+    ```code
+
+    ```
+
+
+---
+
+
+## Ejercicio 24
+```code
+
+```
+- <b>Explicación:</b>
+    - 
+
+    ```code
+    
+    ```
+
+
+
+- <b>Salida</b>
+    - 
+
+    ```code
+
+    ```
+
 
 ---
