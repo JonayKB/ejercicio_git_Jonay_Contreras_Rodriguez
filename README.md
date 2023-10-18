@@ -104,3 +104,62 @@ git branch develop
     ```
 
 ---
+
+## Ejercicio 5
+```code
+git branch
+```
+- <b>Explicación:</b>
+    - git branch 
+
+    ```code
+    Enseña las ramas creadas
+    ```
+
+
+- <b>Salida</b>
+    - git branch 
+
+    ```code
+    develop
+    * main
+    ```
+
+---
+
+
+## Ejercicio 6
+```code
+git switch develop
+git nano hola.html
+CTRL+X
+S
+Enter
+```
+- <b>Explicación:</b>
+    - git switch develop
+
+    ```code
+    Cambia la rama a develop
+    ```
+
+    - git nano hola.html
+
+    ```code
+    Crea un archivo llamado hola.html y nos deja escribir dentro
+    ```
+
+
+- <b>Salida</b>
+    - git switch develop 
+
+    ```code
+    Cambiado a rama 'develop'
+    ```
+
+    - git nano hola.html
+
+    ```code
+
+    ```
+---
