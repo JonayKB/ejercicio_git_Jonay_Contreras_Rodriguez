@@ -666,7 +666,8 @@ git tag v.1
     - git commit -m "Creación del tag v.1"
 
     ```code
-    
+        [main d261eca] Creación del tag v.1
+    1 file changed, 335 insertions(+), 4 deletions(-)
     ```
 
     - git tag v.1
@@ -679,42 +680,80 @@ git tag v.1
 
 ## Ejercicio 17
 ```code
-
+git checkout -b feature-2
+nano Estamos_a_punto_de_terminar.html
+CTRL+X
+S
+Enter
 ```
 - <b>Explicación:</b>
-    - 
+    - git checkout -b feature-2
 
     ```code
-    
+    Crea una rama llamada feature-2 y te mueve a ella
+    ```
+    - nano Estamos_a_punto_de_terminar.html
+
+    ```code
+    Crear un archivo llamado Estamos_a_punto_de_terminar.html
     ```
 
 
 - <b>Salida</b>
-    -  
+    - git checkout -b feature-2
 
     ```code
-    
+    Cambiado a nueva rama 'feature-2'
+    ```
+    - nano Estamos_a_punto_de_terminar.html
+
+    ```code
+
     ```
 
 ---
 
 ## Ejercicio 18
 ```code
-
+git add .
+git commit -m "Creamos Estamos_a_punto_de_terminar.html"
+git push 
 ```
 - <b>Explicación:</b>
-    - 
+    - git add .
 
     ```code
-    
+    Añadimos los ficheros
+    ```
+    - git commit -m "Creamos Estamos_a_punto_de_terminar.html"
+
+    ```code
+    Creamos un commit llamado como se ha nombrado
+    ```
+
+    - git push
+
+    ```code
+    Enviamos los ficheros al repositorio remoto en la rama que estamos, actualmente en feature-2
     ```
 
 
 - <b>Salida</b>
-    -  
+    - git add .
 
     ```code
-    
+
+    ```
+    - git commit -m "Creamos Estamos_a_punto_de_terminar.html"
+
+    ```code
+
+    ```
+
+    - git push
+
+    ```code
+
     ```
 
 ---
