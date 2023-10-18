@@ -301,39 +301,67 @@ git branch
 
 ## Ejercicio 11
 ```code
-
+git merge develop
 ```
 - <b>Explicación:</b>
-    - 
+    - git merge develop
 
     ```code
-    
+    Une la rama develop a la actual (va a crear un conflicto por los cambios en el README.md)
     ```
 
 
 - <b>Salida</b>
-    -  
+    - git merge develop 
 
     ```code
-    
+        Auto-fusionando README.md
+    CONFLICTO (contenido): Conflicto de fusión en README.md
+    Fusión automática falló; arregle los conflictos y luego realice un commit con el resultado.
     ```
 
 ---
 
 ## Ejercicio 12
 ```code
-
+git add .
+git commit -m "Merge realizado"
+git push origin main
 ```
 - <b>Explicación:</b>
-    - 
+    - git add .
+
+    ```code
+    Añade los ficheros
+    ```
+
+    - git commit -m "Merge realizado"
+
+    ```code
+    Crea un commit llamado "Merge realizado"
+    ```
+
+    - git push origin main
+
+    ```code
+    Envia el ultimo commit al repositorio remoto en la rama main
+    ```
+
+
+- <b>Salida</b>
+    - git add .
 
     ```code
     
     ```
 
+    - git commit -m "Merge realizado"
 
-- <b>Salida</b>
-    -  
+    ```code
+    
+    ```
+
+    - git push origin main
 
     ```code
     
