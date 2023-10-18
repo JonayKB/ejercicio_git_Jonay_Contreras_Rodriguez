@@ -211,7 +211,7 @@ Enter
 ## Ejercicio 8
 ```code
 git add.
-git commit -m "Creadoel archivo adios.html"
+git commit -m "Creado el archivo adios.html"
 ```
 - <b>Explicación:</b>
     - git add.
@@ -220,7 +220,7 @@ git commit -m "Creadoel archivo adios.html"
     Añade los ficheros
     ```
 
-    - git commit -m "Creadoel archivo adios.html"
+    - git commit -m "Creado el archivo adios.html"
 
     ```code
     Crea un commit con dicho nombre
@@ -234,10 +234,12 @@ git commit -m "Creadoel archivo adios.html"
 
     ```
 
-    - git commit -m "Creadoel archivo adios.html"
+    - git commit -m "Creado el archivo adios.html"
 
     ```code
-    Crea un commit con dicho nombre
+        [main e191553] Creado el archivo adios.html
+    2 files changed, 138 insertions(+), 1 deletion(-)
+    create mode 100644 adios.html
     ```
 
 
@@ -246,7 +248,7 @@ git commit -m "Creadoel archivo adios.html"
 
 ## Ejercicio 9
 ```code
-
+git push origin main
 ```
 - <b>Explicación:</b>
     - 
