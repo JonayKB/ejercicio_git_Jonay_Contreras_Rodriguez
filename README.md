@@ -77,8 +77,30 @@ git commit -m "Primer commit"
     - git commit -m "Primer commit"
     
     ```code
-    Creamos un commit local llamado "Primer commit"
+        [main (commit-raíz) aeb1d5b] Primer commit
+    1 file changed, 84 insertions(+)
+    create mode 100644 README.md
     ```
 
 ---
 
+## Ejercicio 4
+```code
+git branch develop
+```
+- <b>Explicación:</b>
+    - git branch develop
+
+    ```code
+    Creamos una rama llamada "develop"
+    ```
+
+
+- <b>Salida</b>
+    - git branch develop
+
+    ```code
+
+    ```
+
+---
