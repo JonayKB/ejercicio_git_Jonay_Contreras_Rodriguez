@@ -845,7 +845,7 @@ git push origin develop
     - git commit -m "Merge realizado de feature-2"
 
     ```code
-
+    [develop fd3e42b] Merge realizado de feature-2
     ```
     - git push origin develop
 
