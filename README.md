@@ -788,7 +788,7 @@ git merge feature-2
     - git merge feature-2
 
     ```code
-    Copiamos el contenido de la rama feature-2 a la develop
+    Copiamos el contenido de la rama feature-2 a la develop (conflcito por el README.md)
     ```
 
 
@@ -802,7 +802,9 @@ git merge feature-2
     ```
 
     - git merge feature-2
-
+        Auto-fusionando README.md
+    CONFLICTO (contenido): Conflicto de fusión en README.md
+    Fusión automática falló; arregle los conflictos y luego realice un commit con el resultado.
     ```code
 
     ```
@@ -812,21 +814,43 @@ git merge feature-2
 
 ## Ejercicio 20
 ```code
-
+git add .
+git commit -m "Merge realizado de feature-2"
+git push origin develop
 ```
 - <b>Explicación:</b>
-    - 
+    - git add .
 
     ```code
-    
+    Añadimos los ficheros
+    ```
+    - git commit -m "Merge realizado de feature-2"
+
+    ```code
+    Creamos un commit con dicho nombre
+    ```
+    - git push origin develop
+
+    ```code
+    Enviamos los ficheros al repositorio remoto en la rama develop
     ```
 
 
 - <b>Salida</b>
-    -  
+    - git add .
 
     ```code
-    
+
+    ```
+    - git commit -m "Merge realizado de feature-2"
+
+    ```code
+
+    ```
+    - git push origin develop
+
+    ```code
+
     ```
 
 ---
