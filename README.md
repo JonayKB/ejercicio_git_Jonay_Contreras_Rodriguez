@@ -135,6 +135,8 @@ git nano hola.html
 CTRL+X
 S
 Enter
+git add .
+git commit -m "Creado archivo hola.html"
 ```
 - <b>Explicación:</b>
     - git switch develop
